@@ -32,7 +32,7 @@
                             @if($post->description)
                                 {{$post->description}}
                             @else
-                                {!!str_limit(strip_tags($post->content),100)!!}
+                                {!!str_limit(strip_tags($post->content),300)!!}
                             @endif
                         </div>
                         <a href="{{route('post',['id'=>$post->id])}}" class="post-detail-btn">查看详情</a>

@@ -110,40 +110,41 @@
                 </li>
                 <li>
                     <div class="icon-rounded">
-                        <i class="fa fa-bolt"></i>
+                        <i class="fa fa-heart"></i>
                     </div>
                     <div class="box">
                         <div class="box-title">
-                            <a href="#">CREATIVE DESIGN</a>
+                            <a href="#">友善礼貌</a>
                         </div>
                         <div class="box-content">
-                            Nullam ultricies urna id ornare interdum. Maecenas ut suscipit mauris, non sodales metus.
+                            顾客永远是我们的衣食父母，同事永远是我们的兄弟姐妹，应对他们表露出发自内心的微笑。
+                            视客人和同事为至尊的朋友，任何时候都应该礼貌的对待他们。
                         </div>
                     </div>
                 </li>
                 <li>
                     <div class="icon-rounded">
-                        <i class="fa fa-bolt"></i>
+                        <i class="fa fa-filter"></i>
                     </div>
                     <div class="box">
                         <div class="box-title">
-                            <a href="#">CREATIVE DESIGN</a>
+                            <a href="#">安全可靠</a>
                         </div>
                         <div class="box-content">
-                            Nullam ultricies urna id ornare interdum. Maecenas ut suscipit mauris, non sodales metus.
+                            以饱满和乐观的精神对待客人和同事，保障每一位用户和每一位员工的利益，安全可靠，我们为您买单！
                         </div>
                     </div>
                 </li>
                 <li>
                     <div class="icon-rounded">
-                        <i class="fa fa-bolt"></i>
+                        <i class="fa fa-thumbs-o-up"></i>
                     </div>
                     <div class="box">
                         <div class="box-title">
-                            <a href="#">CREATIVE DESIGN</a>
+                            <a href="#">专业素养</a>
                         </div>
                         <div class="box-content">
-                            Nullam ultricies urna id ornare interdum. Maecenas ut suscipit mauris, non sodales metus.
+                            牢记沃玛特管家的事业形象：工作中主动地为客人着想和服务，绅士和淑女的姿态、职业的素养、专业化的服务。
                         </div>
                     </div>
                 </li>
@@ -205,7 +206,7 @@
             <ul class="testimonials">
                 <li>
                     <div class="avatar">
-                        <img class="lazy" data-original="images/avatar.jpg">
+                        <img class="lazy" data-original="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC">
                     </div>
                     <div class="message">
                         <div class="name">
@@ -218,7 +219,7 @@
                 </li>
                 <li>
                     <div class="avatar">
-                        <img class="lazy" data-original="images/avatar.jpg">
+                        <img class="lazy" data-original="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC">
                     </div>
                     <div class="message">
                         <div class="name">

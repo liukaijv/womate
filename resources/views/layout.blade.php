@@ -9,7 +9,7 @@
     <meta name="keywords" content="{{$settings['site_keywords']}}">
     <meta name="description" content="{{$settings['site_description']}}">
     <title>{{$settings['site_title']}}@yield('title')</title>
-    <link rel="stylesheet" href="{{asset('css/main.min.css')}}"/>
+    <link rel="stylesheet" href="{{asset('css/main.css')}}"/>
     <link rel="stylesheet" href="{{asset('css/font-awesome.css')}}"/>
     <link rel="stylesheet" href="{{asset('css/revolution-slider.css')}}"/>
     <script src="{{asset('js/jquery.min.js')}}"></script>
