@@ -15,8 +15,8 @@
                     <i class="fa fa-user-o"></i> 管理员
                 </li>
                 {{--<li>--}}
-                    {{--<i class="fa fa-folder-open-o"></i> <a--}}
-                            {{--href="{{route('posts',['id'=>$post->catalog->id])}}">{{$post->catalog->name}}</a>--}}
+                {{--<i class="fa fa-folder-open-o"></i> <a--}}
+                {{--href="{{route('posts',['id'=>$post->catalog->id])}}">{{$post->catalog->name}}</a>--}}
                 {{--</li>--}}
                 <li>
                     <i class="fa fa-clock-o"></i> {{$post->created_at}}
@@ -26,7 +26,8 @@
                 </li>
             </ul>
             <div class="post-content">
-                {{$post->content}}
+                {!! $post->content !!}
+
             </div>
 
         </div>

@@ -16,7 +16,7 @@
                 <h2>服务详情</h2>
             </div>
             <div class="post-content">
-                {{$product->content}}
+                {!!$product->content!!}
             </div>
         </div>
 

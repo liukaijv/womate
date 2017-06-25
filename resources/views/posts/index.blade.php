@@ -18,8 +18,8 @@
                                 <i class="fa fa-user-o"></i> 管理员
                             </li>
                             {{--<li>--}}
-                                {{--<i class="fa fa-folder-open-o"></i> <a--}}
-                                        {{--href="{{route('posts',['id'=>$post->catalog->id])}}">{{$post->catalog->name}}</a>--}}
+                            {{--<i class="fa fa-folder-open-o"></i> <a--}}
+                            {{--href="{{route('posts',['id'=>$post->catalog->id])}}">{{$post->catalog->name}}</a>--}}
                             {{--</li>--}}
                             <li>
                                 <i class="fa fa-clock-o"></i> {{$post->created_at}}
@@ -32,7 +32,7 @@
                             @if($post->description)
                                 {{$post->description}}
                             @else
-                                {{str_limit(strip_tags($post-content),100)}}
+                                {!!str_limit(strip_tags($post->content),100)!!}
                             @endif
                         </div>
                         <a href="{{route('post',['id'=>$post->id])}}" class="post-detail-btn">查看详情</a>

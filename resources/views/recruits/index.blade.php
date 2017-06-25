@@ -22,7 +22,7 @@
                         <div class="mt10">工作地点：{{$item->address}}</div>
                         <div class="mt10">职位介绍：</div>
                         <div class="mt10">
-                            {{$item->content}}
+                            {!!$item->content!!}
                         </div>
                     </div>
                 </li>
@@ -34,13 +34,13 @@
 @endsection
 
 @section('footer')
-<script>
-    $(function () {
-        $('.recruit-header').on('click', function () {
-            var me = $(this);
-            me.next('.recruit-detail').slideToggle();
-            me.find('.toggle-recruit i').toggleClass('fa-chevron-down')
-        })
-    });
-</script>
+    <script>
+        $(function () {
+            $('.recruit-header').on('click', function () {
+                var me = $(this);
+                me.next('.recruit-detail').slideToggle();
+                me.find('.toggle-recruit i').toggleClass('fa-chevron-down')
+            })
+        });
+    </script>
 @endsection
