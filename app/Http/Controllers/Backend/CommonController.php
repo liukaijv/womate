@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Backend;
 use Hamcrest\Core\Set;
 use Illuminate\Http\Request;
 use App\Setting;
+use Illuminate\Support\Facades\Cache;
 
 class CommonController extends BaseController
 {
@@ -62,5 +63,15 @@ class CommonController extends BaseController
         }
         $settings = Setting::getSettings(false);
         return $this->render('setting', compact('settings'));
+    }
+
+    /**
+     * @param Request $request
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function clearCache(Request $request)
+    {
+        Cache::flush();
+        return redirect()->back()->with('success', '清除缓存成功');
     }
 }

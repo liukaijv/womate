@@ -6,10 +6,10 @@
             </button>
         </div>
         {{--<form role="search" class="navbar-form-custom" action="search_results.html">--}}
-            {{--<div class="form-group">--}}
-                {{--<input placeholder="Search for something..." class="form-control" name="top-search"--}}
-                       {{--id="top-search" type="text">--}}
-            {{--</div>--}}
+        {{--<div class="form-group">--}}
+        {{--<input placeholder="Search for something..." class="form-control" name="top-search"--}}
+        {{--id="top-search" type="text">--}}
+        {{--</div>--}}
         {{--</form>--}}
         <ul class="nav navbar-top-links navbar-right">
             <li>
@@ -20,6 +20,11 @@
             <li>
                 <a href="/" target="_blank">
                     <i class="fa fa-home"></i> 站点首页
+                </a>
+            </li>
+            <li>
+                <a href="{{route('backend.clear_cache')}}">
+                    <i class="fa fa-refresh"></i> 清除缓存
                 </a>
             </li>
             <li>

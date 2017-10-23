@@ -10,7 +10,7 @@
 
         <div class="content left">
             <div class="product-image">
-                <img class="lazy" data-original="{{$product->cover_image}}">
+                <img class="lazy" data-original="{{asset($product->cover_image)}}">
             </div>
             <div class="section-title">
                 <h2>服务详情</h2>

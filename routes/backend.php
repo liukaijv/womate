@@ -11,6 +11,8 @@ Route::group(['middleware' => 'auth.backend'], function () {
 
     Route::post('upload', 'CommonController@upload')->name('backend.upload');
 
+    Route::get('clear_cache', 'CommonController@clearCache')->name('backend.clear_cache');
+
     Route::match(['get', 'post'], 'setting', 'CommonController@setting')->name('backend.setting');
 
     Route::get('/', 'IndexController@index')->name('backend.index');
