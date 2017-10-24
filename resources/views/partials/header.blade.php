@@ -27,7 +27,7 @@
 <div class="header">
     <div class="container">
         <a href="/" class="logo left">
-            <img src="{{asset('images/logo.png')}}" width="120">
+            <img src="{{asset('images/logo.png')}}" width="120" alt="{{$settings['site_title']}}">
         </a>
         <?php $segment = request()->segment(1);?>
         <?php $segment2 = request()->segment(2);?>
