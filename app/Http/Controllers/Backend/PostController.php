@@ -135,7 +135,6 @@ class PostController extends BaseController
             return back()->withErrors($validator)->withInput();
         }
         $request['visible'] = $request->visible ? 1 : 0;
-        $request['is_recommend'] = $request->visible ? 1 : 0;
         if ($post->update($request->all())) {
             return redirect()->route('post.index')->with('success', '修改成功');
         }
