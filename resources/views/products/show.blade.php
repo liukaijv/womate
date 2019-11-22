@@ -10,7 +10,7 @@
 
         <div class="content left">
             {{--<div class="product-image">--}}
-                {{--<img class="lazy" data-original="{{asset($product->cover_image)}}">--}}
+            {{--<img class="lazy" data-original="{{asset($product->cover_image)}}">--}}
             {{--</div>--}}
             <div class="section-title">
                 <h2>服务详情</h2>
@@ -28,10 +28,12 @@
                 <div class="product-description">
                     {{$product->description}}
                 </div>
-                <div class="price-panel">
-                    <p>价格： {{$product->price_display?$product->price_display:$product->price}}</p>
-                    <p>预约金： <span class="pirce1">&yen;{{$product->subscription}}/人</span></p>
-                </div>
+                @if($product->price)
+                    <div class="price-panel">
+                        <p>价格： {{$product->price_display?$product->price_display:$product->price}}</p>
+                        <p>预约金： <span class="pirce1">&yen;{{$product->subscription}}/人</span></p>
+                    </div>
+                @endif
                 <ul class="product-options">
                     @foreach($product->options as $key=>$value)
                         <li>
@@ -39,9 +41,9 @@
                         </li>
                     @endforeach
                 </ul>
-                <div class="">
-                    <button type="button" class="btn order-btn">立即预定</button>
-                </div>
+
+                <button type="button" class="btn order-btn">立即预定</button>
+
             </div>
         </div>
 

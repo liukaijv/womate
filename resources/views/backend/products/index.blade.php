@@ -65,6 +65,7 @@
                                 <td>产品分类</td>
                                 <td>封面图</td>
                                 <td>状态</td>
+                                <td>首页推荐</td>
                                 <td>创建时间</td>
                                 <td>操作</td>
                             </tr>
@@ -95,6 +96,9 @@
                                     </td>
                                     <td>
                                         <span class="badge badge-info">{{$item->disabled?'已下架':'正常'}}</span>
+                                    </td>
+                                    <td>
+                                        <span class="badge badge-info">{{$item->is_recommend?'是':'否'}}</span>
                                     </td>
                                     <td>
                                         {{$item->created_at}}

@@ -149,7 +149,7 @@
         <div class="col-lg-10">
             <div class="checkbox">
                 <label>
-                    <input type="checkbox" name="disabled" @if($product->disabled == 1) checked @endif value="1"> 是
+                    <input type="checkbox" name="disabled" @if($product->disabled==true) checked @endif value="1"> 是
                 </label>
             </div>
         </div>
@@ -160,7 +160,7 @@
         <div class="col-lg-10">
             <div class="checkbox">
                 <label>
-                    <input type="checkbox" name="is_recommend" @if($product->is_recommend == 1) checked @endif value="1"> 是
+                    <input type="checkbox" name="is_recommend" @if($product->is_recommend==true) checked @endif value="1"> 是
                 </label>
             </div>
         </div>
