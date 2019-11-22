@@ -208,10 +208,10 @@
                 $('#option-container').append(html);
             });
             $('#option-container').on('click', '.delete-option', function () {
-                if ($('.option-item').length <= 1) {
-                    $.alert('不能再删除了');
-                    return;
-                }
+                // if ($('.option-item').length <= 1) {
+                //     $.alert('不能再删除了');
+                //     return;
+                // }
                 $(this).closest('.row').remove();
             });
         });
