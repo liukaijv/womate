@@ -57,7 +57,7 @@
 
         <div class="col-lg-2">
             <div class="input-group">
-                <input type="text" disabled class="form-control" placeholder="请先上传"
+                <input type="text" disabled class="form-control" placeholder="请先上传，比例380x280"
                        value="{{$product->cover_image or old('cover_image')}}">
                 <input type="hidden" class="form-control" name="cover_image"
                        value="{{$product->cover_image or old('cover_image')}}">
@@ -150,6 +150,17 @@
             <div class="checkbox">
                 <label>
                     <input type="checkbox" name="disabled" @if($product->disabled == 1) checked @endif value="1"> 是
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-lg-2 control-label">首页推荐</label>
+
+        <div class="col-lg-10">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="is_recommend" @if($product->is_recommend == 1) checked @endif value="1"> 是
                 </label>
             </div>
         </div>

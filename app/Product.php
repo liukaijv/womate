@@ -29,6 +29,7 @@ class Product extends Model
         'cover_image',
         'sort',
         'disabled',
+        'is_recommend',
     ];
 
     /**

@@ -12,9 +12,5 @@
         <input type="password" name="password" class="form-control" placeholder="密码" required="">
     </div>
     <button type="submit" class="btn btn-primary block full-width m-b">登录</button>
-    <p class="text-muted text-center">
-        <small>没有账号？</small>
-    </p>
-    <a class="btn btn-sm btn-white btn-block" href="{{route('backend.register')}}">去注册</a>
     {!! Form::close() !!}
 @endsection
