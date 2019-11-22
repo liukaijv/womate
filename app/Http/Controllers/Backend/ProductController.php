@@ -171,7 +171,7 @@ class ProductController extends BaseController
         }
         $request['options'] = $options;
         $request['disabled'] = $request->disabled ? 1 : 0;
-        $request['is_recommend'] = $request->visible ? 1 : 0;
+        $request['is_recommend'] = $request->is_recommend ? 1 : 0;
         if ($product->update($request->all())) {
             return redirect()->route('product.index')->with('success', '修改成功');
         }
