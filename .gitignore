@@ -7,5 +7,4 @@ Homestead.yaml
 .env
 /public/uploads
 .DS_Store
-
-
+*.htaccess

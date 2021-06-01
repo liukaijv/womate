@@ -33,6 +33,11 @@ class CommonController extends BaseController
             return response()->json(['success' => false, 'msg' => '文件上传出错']);
         }
 
+        $allowed_extensions = ["png", "jpg", "gif", "jpeg"];
+        if (!in_array($file->getClientOriginalExtension(), $allowed_extensions)) {
+            return response()->json(['success' => false, 'msg' => '文件上传格式出错']);
+        }
+
         $path = config('backend.upload_dir');
         $dir = $request->get('dir', '');
         if (!empty($dir)) {

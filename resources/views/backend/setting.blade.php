@@ -51,7 +51,8 @@
                                 <label class="col-lg-2 control-label">站点关键词</label>
 
                                 <div class="col-lg-10">
-                                    <textarea placeholder="站点关键词" class="form-control" name="site_keywords">{{$settings['site_keywords'] or old('site_keywords')}}</textarea>
+                                    <textarea placeholder="站点关键词" class="form-control"
+                                              name="site_keywords">{{$settings['site_keywords'] or old('site_keywords')}}</textarea>
                                 </div>
                             </div>
 
@@ -59,7 +60,8 @@
                                 <label class="col-lg-2 control-label">站点描述</label>
 
                                 <div class="col-lg-10">
-                                    <textarea placeholder="站点描述" class="form-control" name="site_description">{{$settings['site_description'] or old('site_description')}}</textarea>
+                                    <textarea placeholder="站点描述" class="form-control"
+                                              name="site_description">{{$settings['site_description'] or old('site_description')}}</textarea>
                                 </div>
                             </div>
 
@@ -121,7 +123,8 @@
                                 <label class="col-lg-2 control-label">公司简介</label>
 
                                 <div class="col-lg-10">
-                                    <textarea placeholder="公司简介" class="form-control" name="company_intro"  maxlength="50">{{$settings['company_intro'] or old('company_intro')}}</textarea>
+                                    <textarea placeholder="公司简介" class="form-control" name="company_intro"
+                                              maxlength="50">{{$settings['company_intro'] or old('company_intro')}}</textarea>
                                 </div>
                             </div>
 
@@ -129,7 +132,8 @@
                                 <label class="col-lg-2 control-label">底部信息</label>
 
                                 <div class="col-lg-10">
-                                    <textarea placeholder="底部信息" class="form-control" name="footer_info"  maxlength="50">{{$settings['footer_info'] or old('footer_info')}}</textarea>
+                                    <textarea placeholder="底部信息" class="form-control" name="footer_info"
+                                              maxlength="300">{{$settings['footer_info'] or old('footer_info')}}</textarea>
                                 </div>
                             </div>
 

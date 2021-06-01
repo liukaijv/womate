@@ -13,9 +13,9 @@ class AdminsTableSeeder extends Seeder
     {
         \App\Admin::create(
             [
-                'name' => 'admin',
+                'name' => 'admin111',
                 'email' => '89016230@qq.com',
-                'password' => Hash::make('admin'),
+                'password' => Hash::make('RneLVZ2FIv'),
                 'is_super' => true
             ]
         );
